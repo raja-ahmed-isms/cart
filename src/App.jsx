@@ -12,9 +12,13 @@ function App() {
   return (
     <div className="App ">
       <Navbar />
-      <Hero />
-      <Home />
-      <Footer />
+      {/* <Hero /> */}
+      <div className="p-4">
+        {/* Add your main content here */}
+        <h1 className="text-2xl font-bold">Welcome to MyStore</h1>
+        <Home />
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 }
